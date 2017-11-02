@@ -15,7 +15,7 @@ import javax.swing.*;
 public class Marco extends JFrame {
     public Marco(){
         setTitle("Contratos");
-        setBounds(500,100,600,680);
+        setBounds(500,100,600,600);
         JPanel lamina_cuadricula = new JPanel();
         lamina_cuadricula.setLayout(new GridLayout(10,3));
         
