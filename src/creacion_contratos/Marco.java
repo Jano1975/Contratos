@@ -19,11 +19,13 @@ public class Marco extends JFrame {
         JPanel lamina_cuadricula = new JPanel();
         lamina_cuadricula.setLayout(new GridLayout(10,3));
         
-        String primero[] = {"Nombre","Direccion"};
+        
         
         Lamina lamina = new Lamina();
+        Lamina lamina2 = new Lamina();
         
         lamina_cuadricula.add(lamina);
+        lamina_cuadricula.add(lamina2);
         add(lamina_cuadricula); 
     }
     
